@@ -8,6 +8,10 @@ This repo is a small **full-stack mock draft** app:
 
 Earlier iterations included a separate Streamlit app plus a larger `src/fantasy_v2/` modeling package (custom projections, offseason weighting, etc.). That code path was removed to keep this repo focused on the mock draft MVP.
 
+## Acknowledgments
+
+Much of this codebase was written with assistance from **[Cursor](https://cursor.com)** (AI pair programming in the editor). Product direction, fantasy logic, and what shipped are still mine; Cursor accelerated implementation and refactors the same way other tooling would.
+
 ## Screenshots
 
 ### Draft lobby
