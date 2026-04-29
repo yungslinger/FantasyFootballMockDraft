@@ -1,0 +1,17 @@
+[project]
+name = "nfl-fantasy-draft-helper-v2"
+version = "0.1.0"
+description = "FantasyPros-powered mock draft room (FastAPI + Next.js) with player cards powered by nflreadpy."
+requires-python = ">=3.10"
+dependencies = [
+  "pandas>=2.2",
+  "numpy>=2.0",
+  "pydantic>=2.8",
+  "fastapi>=0.115",
+  "uvicorn>=0.30",
+  "nflreadpy",
+]
+
+[tool.ruff]
+line-length = 100
+

@@ -1,0 +1,9 @@
+# Prefer `environment.yml` (conda-forge) on Windows to avoid compiling wheels.
+pandas>=2.2
+numpy>=2.0
+pyarrow>=16.0
+pydantic>=2.8
+fastapi>=0.115
+uvicorn>=0.30
+pytest>=8.3
+nflreadpy
